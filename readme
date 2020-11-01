@@ -3,7 +3,7 @@
 ## INDEX.HTML
 How To Add Apps
 
-Below div id "desktop" stuff
+Below <div id="desktop">
 
 Add the code below
 <div class="window closed" data-title="APP NAME HERE">
@@ -13,3 +13,18 @@ Add the code below
 Config the name and code and then add this code along with the other pieces of code at the bottom
     
 <a class="openWindow" data-id="ID HERE">APP NAME HERE.bxa</a>
+
+^^^ The ID depends on where you put it for example:
+
+
+ID 1 -> <div class="window closed" data-title="Seecomp iBrowser">
+			<iframe src="https://bing.com" style="border:0px #ffffff none;" name="Bing" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="100%px" width="100%px" allowfullscreen></iframe>
+		</div>
+          
+ID 2 ->        <div class="window closed" data-title="File Explorer">
+        <iframe src="http://DOMAIN-HERE/System20/Boxes%20Winder/bxdocs/" style="border:0px #ffffff none;" name="BoxesFiles" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="100%px" width="100%px" allowfullscreen></iframe>
+		</div>
+          
+ ID 3 ->       <div class="window closed" data-title="Multitask">
+        <iframe src="http://DOMAIN-HERE/" style="border:0px #ffffff none;" name="BoxesFiles" scrolling="yes" frameborder="1" marginheight="0px" marginwidth="0px" height="100%px" width="100%px" allowfullscreen></iframe>
+		</div>
