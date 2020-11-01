@@ -3,7 +3,7 @@
 ## INDEX.HTML
 How To Add Apps
 
-Below <div id="desktop">
+Below div id "desktop" stuff
 
 Add the code below
 <div class="window closed" data-title="APP NAME HERE">
